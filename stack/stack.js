@@ -1,9 +1,9 @@
 class Stack {
   constructor() {
-    this._items = []; // _ is private, so it can be accessed only inside the class itself and not outside of that class (i.e., in other files)
+    this._items = []; 
   }
   push(item) {
-    this._items.push(item); // add item to stack (adds it at end, so the last element is added first and then removed from array when popped out of that position.)
+    this._items.push(item); // add item to stack 
     return true;
   }
   pop() {
