@@ -18,7 +18,7 @@ class Stack {
   print() {
     this._items.length > 0
       ? console.log(this._items.join(" -> "))
-      : console.log("Stack is empty"); // if stack has items, print them else prints that the stack is empty and returns nothing (i.e., does not return anything).
+      : console.log("Stack is empty"); 
     // console.log(this._items.join(' -> '));
   }
   size() {
