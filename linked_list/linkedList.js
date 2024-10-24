@@ -66,7 +66,7 @@ class LinkedList {
                 previous.next = current.next;
             }
             this.length--;
-            current.element;
+            return current.element;
         } else {
             return null;
         }
